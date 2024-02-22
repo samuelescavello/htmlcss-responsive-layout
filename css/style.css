@@ -6,6 +6,20 @@
      padding: 0;
      box-sizing: border-box;
  }
+
+ ul{
+    text-decoration: none;
+ }
+
+ a{
+    text-decoration: none;
+    color: var(--color-bg-color-white);
+ }
+
+ img{
+    width: 100%;
+    display: block;
+ }
  
  body {
      font-family: "PT Sans", sans-serif;
@@ -27,19 +41,9 @@
     border: 1px solid red;
 }
 
-
-/* bgcolor */
-
-.eaven{
-    background-color: var(--color-bg-color-secondary);
-    padding: 20px 10px;
+.container{
+    width: 100%;
 }
-
-.shots{
-    background-color: var(--color-bg-color-white);
-    padding: 20px 10px;
-}
-/* utility */
 
 .d-flex{
     display: flex;
@@ -53,6 +57,56 @@
     align-items: center;
     align-content: center;
 }
+
+/* utility */
+.text-center{
+    text-align: center;
+}
+
+.text-blue{
+    color: var(--color-nav);
+}
+
+.eaven{
+    background-color: var(--color-bg-color-secondary);
+    padding: 20px 10px;
+}
+
+.shots{
+    background-color: var(--color-bg-color-white);
+    padding: 20px 10px;
+}
+
+.bg-light{
+    background-color: var(--color-bg-jambo);
+}
+
+h3{
+    margin: 15px 0px;
+}
+
+p{
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+/* border */
+.small-rounded{
+    border-radius: 20px;
+}
+
+.big-rounded{
+    border-radius: 40px;
+}
+
+.circle{
+    border-radius: 50%;
+}
+
+.icon{
+    font-size: 3em;
+}
+
 
 /* header */
 nav{
@@ -68,3 +122,24 @@ nav div i{
     padding: 20px 10px;
     color: var(--color-bg-color-white);
 }
+
+/* main  */
+
+.card{
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.img-content{
+    width: 80%;
+    margin: 0 auto;
+}
+
+#features .container>.card{
+    padding-bottom: 0px;
+}
+
+
+
+
