@@ -1,0 +1,70 @@
+/*************************************************
+    GENERAL STYLES
+ *************************************************/
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+ 
+ body {
+     font-family: "PT Sans", sans-serif;
+ }
+
+ html{
+    scroll-behavior: smooth;
+ }
+
+ :root {
+    --color-nav: #0084fd;
+    --color-bg-color-white: #ffffff;
+    --color-bg-color-secondary: #9792e4;
+    --color-footer-color: #333333;
+    --color-bg-jambo: #b5ddff;
+}
+
+.debug{
+    border: 1px solid red;
+}
+
+
+/* bgcolor */
+
+.eaven{
+    background-color: var(--color-bg-color-secondary);
+    padding: 20px 10px;
+}
+
+.shots{
+    background-color: var(--color-bg-color-white);
+    padding: 20px 10px;
+}
+/* utility */
+
+.d-flex{
+    display: flex;
+}
+
+.s-btw{
+    justify-content: space-between;
+}
+
+.align{
+    align-items: center;
+    align-content: center;
+}
+
+/* header */
+nav{
+    background-color: var(--color-nav);
+    width: 100%;
+}
+
+nav div img{
+    padding: 20px 10px;
+}
+
+nav div i{
+    padding: 20px 10px;
+    color: var(--color-bg-color-white);
+}
